@@ -7,8 +7,12 @@ import { Appointment } from '../model/appointment';
   styleUrls: ['./appointment-list.component.css'],
 })
 export class AppointmentListComponent {
-  newAppointmentTitle = '';
-  newAppointmentDate = '';
+  newAppointmentTitle: string = '';
+  newAppointmentDate = new Date();
 
   appointments: Appointment[] = [];
+
+  addAppointment() {
+    alert(this.newAppointmentTitle + ' ' + this.newAppointmentDate);
+  }
 }
