@@ -1,7 +1,15 @@
 <div>
   <h2>Appointments</h2>
 
-  <input type="text" placeholder="Appointment Description" />
-  <input type="date" placeholder="Appointment Date" />
+  <input
+    type="text"
+    [ngModel]="newAppointmentTitle"
+    placeholder="Appointment Description"
+  />
+  <input
+    type="date"
+    [ngModel]="newAppointmentDate"
+    placeholder="Appointment Date"
+  />
   <Button>Add</Button>
 </div>
