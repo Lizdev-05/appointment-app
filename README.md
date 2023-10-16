@@ -58,7 +58,7 @@ Application App is a website built mainly to get started with Angular. With this
 
 ### Live link
 
-Here is the [Coming Soon...]() of the app
+Live link [Coming Soon...]()
 
 ### Built With
 
