@@ -26,4 +26,8 @@ export class AppointmentListComponent {
       (this.newAppointmentTitle = ''), (this.newAppointmentDate = new Date());
     }
   }
+
+  deleteAppointment(index: number) {
+    this.appointments.splice(index, 1);
+  }
 }
