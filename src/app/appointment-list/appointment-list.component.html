@@ -11,4 +11,11 @@
     placeholder="Appointment Date"
   />
   <Button (click)="addAppointment()">Add</Button>
+
+  <ul>
+    <li *ngFor="let appointment of appointments">
+      {{ appointment.title }}
+      {{ appointment.date }}
+    </li>
+  </ul>
 </div>
