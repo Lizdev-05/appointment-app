@@ -11,9 +11,9 @@
     <br />
     <a href="#" target="_blank">View Live</a>
     ·
-    <a href="https://github.com/Lizdev-05/nextevent/issues/new" target="_blank">Report Bug</a>
+    <a href="https://github.com/Lizdev-05/appointment-app/issues" target="_blank">Report Bug</a>
     ·
-    <a href="https://github.com/Lizdev-05/nextevent/issues/new" target="_blank">Request Feature</a>
+    <a href="https://github.com/Lizdev-05/appointment-app/issues" target="_blank">Request Feature</a>
   </h5>
 </div>
 
@@ -22,7 +22,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#nextevent">NextEvent</a>
+      <a href="#application-app">Application App</a>
       <ul>
         <li><a href="#live-link">Live Link</a></li>
         <li><a href="#built-with">Built With</a></li>
@@ -46,9 +46,9 @@
 
 <!-- ABOUT THE PROJECT -->
 
-### NextEvent
+### Application App
 
-NextEvent is a website built mainly to practice NextJs routing. With this app, you can view all events, get a specific event and even filter events by the dynamic route...
+Application App is a website built mainly to get started with Angular. With this app, you can add appointment and delete appointment. The appointments are persists in the local storage.
 
 <div align="center">
   <img  width="1000" alt="event" src="./cover-page.png">
@@ -58,14 +58,14 @@ NextEvent is a website built mainly to practice NextJs routing. With this app, y
 
 ### Live link
 
-Here is the [live link](https://NextEvent.netlify.app/) of the app
+Here is the [live link](https://Application App.netlify.app/) of the app
 
 ### Built With
 
 **Main Technologies:**
 
-- ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-- ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwind-css&logoColor=white&style=flat)
+- ![Angular](https://img.shields.io/badge/-Angular-C3002F?logo=angular&logoColor=white&style=flat)
+- ![Bootstrap](https://img.shields.io/badge/-Bootstrap-white?logo=bootstrap&logoColor=800080&style=flat)
 - ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 - ![FIREBASE](https://img.shields.io/badge/-Firebase-white?logo=firebase&logoColor=FFCA28&style=flat)
 
@@ -77,7 +77,7 @@ Here is the [live link](https://NextEvent.netlify.app/) of the app
 
 ### Clone-Locally
 
-- Enter this url: [https://github.com/Lizdev-05/nextevent.git](https://github.com/Lizdev-05/nextevent.git) in your web browser.
+- Enter this url: [https://github.com/Lizdev-05/appointment-app/.git](https://github.com/Lizdev-05/appointment-app/.git) in your web browser.
 - Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
 - Select the download Zip option from the drop-down menu.
 - Once the download is complete you will be able to access my project locally.
@@ -119,8 +119,7 @@ In order to run tests for this project make sure you have installed all previous
 
   In the future, I hope to:
 
-  - Add functionalities for admin to delete event
-  - Add functionalities for admin to edit event
+  - Add functionalities to edit appointment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
