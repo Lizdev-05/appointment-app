@@ -1,22 +1,46 @@
-<div>
-  <h2>Appointments</h2>
+<div class="container">
+  <div class="card mt-3 p-5">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center">Create new appointment</h2>
+      </div>
+    </div>
 
-  <input
-    [(ngModel)]="newAppointmentTitle"
-    placeholder="Appointment Description"
-  />
-  <input
-    type="date"
-    [(ngModel)]="newAppointmentDate"
-    placeholder="Appointment Date"
-  />
-  <Button (click)="addAppointment()">Add</Button>
+    <div class="row mt-3">
+      <div class="col-12 col-md-6">
+        <input
+          class="form-control"
+          [(ngModel)]="newAppointmentTitle"
+          placeholder="Appointment Description"
+        />
+      </div>
+      <div class="col-12 col-md-4">
+        <input
+          class="form-control"
+          type="date"
+          [(ngModel)]="newAppointmentDate"
+          placeholder="Appointment Date"
+        />
+      </div>
+      <div class="col-12 col-md-2">
+        <button (click)="addAppointment()" class="btn btn-primary w-100">
+          Add
+        </button>
+      </div>
+    </div>
+  </div>
 
-  <ul>
-    <li *ngFor="let appointment of appointments; index as i">
+  <h2 class="text-center mt-5">Appointments</h2>
+  <ul class="list-group mt-3">
+    <li
+      *ngFor="let appointment of appointments; index as i"
+      class="list-group-item d-flex justify-content-between align-items-center"
+    >
       {{ appointment.title }}
       {{ appointment.date }}
-      <button (click)="deleteAppointment(i)">Delete</button>
+      <button (click)="deleteAppointment(i)" class="btn btn-danger">
+        Delete
+      </button>
     </li>
   </ul>
 </div>
