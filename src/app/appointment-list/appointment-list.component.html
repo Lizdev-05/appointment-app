@@ -13,9 +13,10 @@
   <Button (click)="addAppointment()">Add</Button>
 
   <ul>
-    <li *ngFor="let appointment of appointments">
+    <li *ngFor="let appointment of appointments; index as i">
       {{ appointment.title }}
       {{ appointment.date }}
+      <button (click)="deleteAppointment(i)">Delete</button>
     </li>
   </ul>
 </div>
