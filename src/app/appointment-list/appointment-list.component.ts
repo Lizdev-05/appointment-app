@@ -1,17 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Appointment } from '../model/appointment';
-import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-appointment-list',
   templateUrl: './appointment-list.component.html',
   styleUrls: ['./appointment-list.component.css'],
 })
-export class AppointmentListComponent {
+export class AppointmentListComponent implements OnInit {
   newAppointmentTitle: string = '';
   newAppointmentDate = new Date();
 
   appointments: Appointment[] = [];
+
+  ngOnInit(): void {
+    let savedAppointment = localStorage.getItem('appointment');
+
+    this.appointments = savedAppointment ? JSON.parse(savedAppointment) : [];
+  }
 
   addAppointment() {
     if (this.newAppointmentTitle.trim().length && this.newAppointmentDate) {
