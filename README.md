@@ -58,7 +58,7 @@ Application App is a website built mainly to get started with Angular. With this
 
 ### Live link
 
-Here is the [live link](https://Application App.netlify.app/) of the app
+Here is the [Coming Soon...]() of the app
 
 ### Built With
 
